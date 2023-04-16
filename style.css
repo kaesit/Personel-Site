@@ -498,10 +498,11 @@ html { scroll-behavior: smooth; }
 
 
 
-@media screen and (min-width: 250px) and (max-width: 900px)
+@media screen and (min-width: 250px) and (max-width: 600px) and (min-height: 600px)
 {
+  
   .main-container{
-    width: 700px;
+    width: 300px;
     margin: auto;
   }
   
@@ -516,8 +517,9 @@ html { scroll-behavior: smooth; }
   #header{
     height: 929px;
     background-size: cover;
-    background-position: 50% 25%;
+    background-position: 45% 25%;
     background-image: url('e.jpg');
+    width: 586px;
   }
   
   .overlay{
@@ -590,7 +592,7 @@ html { scroll-behavior: smooth; }
     top: 30%;
     left: 5%;
     position: absolute;
-    width: 100%;
+    width: 300px; 
   }
   .main-showcase-text p
   {
@@ -601,6 +603,7 @@ html { scroll-behavior: smooth; }
   /* PERCENTAGE CIRCLES SECTION */
   #statistics{
     background: linear-gradient(to right, rgba(0, 15, 40, 255) 45%, #306998);
+    width: 586px;
   }
   
   .wrapper{
@@ -768,27 +771,27 @@ html { scroll-behavior: smooth; }
   /*gf*/
   #desktop{
     background: linear-gradient(to right, rgba(0, 15, 40, 255) 45%, #306998);
+    width: 586px;
   }
   
   .desktop-showcase{
     display: flex;
     align-items: center;
-    
     justify-content: space-evenly;
     height: 700px;
   }
   
-  .desktop-showcase-text{ width: 100%;}
+  .desktop-showcase-text{ width: 500%;}
   
-  .desktop-showcase-text p{ font-size: 0.6rem;}
+  .desktop-showcase-text p{ margin-left: 25px; font-size: 0.6rem;}
   
   .images{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
-    width: 650px;
-    height: 350px;
+    width: 550px;
+    height: 500px;
     height: auto;
   }
   
@@ -807,9 +810,10 @@ html { scroll-behavior: smooth; }
   
   #desktopImg4{ background-image: url('ab.png');}
   
-  /* DESKTOP SHOWCASE PYQT EXAMPLE */
+  
   #desktop-showcase{
     background-color: #306998;
+    width: 586px;
   }
   
   .desktop-showcase-pyqt{
@@ -837,6 +841,7 @@ html { scroll-behavior: smooth; }
   /* WEB APP SHOWCASE */
   #web{
     background: linear-gradient(to left, black 45%, #1f027c);
+    width: 586px;
   }
   
   .web-showcase{
@@ -861,6 +866,7 @@ html { scroll-behavior: smooth; }
   /* WEB SHOWCASE DJANGO EXAMPLE */
   #web-showcase{
     background-color: #1f027c;
+    width: 586px;
   }
   .web-showcase-django{
     display: flex;
@@ -891,6 +897,7 @@ html { scroll-behavior: smooth; }
   /* MOBILE APP SHOWCASE */
   #mobile{
     background: linear-gradient(to right, black 45%, #646464);
+    width: 586px;
   }
   
   .mobile-showcase{
@@ -922,6 +929,7 @@ html { scroll-behavior: smooth; }
   /* MOBILE SHOWCASE KIVY EXAMPLE */
   #mobile-showcase{
      background-color: #646464;
+     width: 586px;
   }
   
   .mobile-showcase-kivy{
@@ -953,6 +961,7 @@ html { scroll-behavior: smooth; }
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 586px;
   }
 }
 
