@@ -846,7 +846,7 @@ html { scroll-behavior: smooth; }
     height: 700px;
   }
   
-  .web-showcase-text{ width: 100%px;}
+  .web-showcase-text{ width: 100%;}
   
   .web-showcase-text p{ font-size: 0.6rem;}
   
@@ -885,7 +885,7 @@ html { scroll-behavior: smooth; }
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
   }
   
-  #web-showcase-django-text{ width: 100%px;}
+  #web-showcase-django-text{ width: 100%;}
   #web-showcase-django-text p { font-size: 0.6rem;}
   
   /* MOBILE APP SHOWCASE */
@@ -931,7 +931,7 @@ html { scroll-behavior: smooth; }
     justify-content: space-around;
   }
   
-  #mobile-showcase-kivy-text{ width: 600px;}
+  #mobile-showcase-kivy-text{ width: 100%;}
   #mobile-showcase-kivy-text p { font-size: 0.6rem;}
   
   #kivyImg{
