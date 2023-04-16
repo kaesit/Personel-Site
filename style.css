@@ -778,7 +778,7 @@ html { scroll-behavior: smooth; }
     height: 700px;
   }
   
-  .desktop-showcase-text{ width: 60%;}
+  .desktop-showcase-text{ width: 100%;}
   
   .desktop-showcase-text p{ font-size: 0.6rem;}
   
@@ -819,7 +819,7 @@ html { scroll-behavior: smooth; }
     justify-content: space-evenly;
   }
   
-  .desktop-showcase-pyqt-text{ width: 600px; }
+  .desktop-showcase-pyqt-text{ width: 100%; }
   .desktop-showcase-pyqt-text p { font-size: 0.6rem; }
   
   #pyqtImg{
@@ -846,7 +846,7 @@ html { scroll-behavior: smooth; }
     height: 700px;
   }
   
-  .web-showcase-text{ width: 600px;}
+  .web-showcase-text{ width: 100%px;}
   
   .web-showcase-text p{ font-size: 0.6rem;}
   
@@ -885,7 +885,7 @@ html { scroll-behavior: smooth; }
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
   }
   
-  #web-showcase-django-text{ width: 500px;}
+  #web-showcase-django-text{ width: 100%px;}
   #web-showcase-django-text p { font-size: 0.6rem;}
   
   /* MOBILE APP SHOWCASE */
@@ -900,7 +900,7 @@ html { scroll-behavior: smooth; }
     height: 700px;
   }
   
-  .mobile-showcase-text{ width: 600px;}
+  .mobile-showcase-text{ width: 100%;}
   .mobile-showcase-text p{ font-size: 0.6rem;}
   
   #mobileImg1, #mobileImg2, #mobileImg3, #mobileImg4{
